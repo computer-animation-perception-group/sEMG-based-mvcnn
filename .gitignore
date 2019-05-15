@@ -1,0 +1,6 @@
+*.swp
+*.pyc
+.ipynb_checkpoints/
+.cache/
+/scripts/exp_inter
+/tmp/

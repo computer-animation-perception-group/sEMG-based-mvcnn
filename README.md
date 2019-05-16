@@ -36,7 +36,7 @@ This repo contains the contains the code of our latest paper on sEMG: Wentao Wei
         # You can change the dataset you want to  extract in this script
         sh feature_extract.sh  
         ```
-        The other way is to download prepared feature dataset on Google drive, which only contains features of NinaPro DB1 due to the huge amount of data.
+        The other way is to download prepared feature dataset on [Google drive](https://drive.google.com/uc?export=download&id=1fHPnRfuejZniy7rS5uJDIsrMm0y9IkCw), which only contains features of NinaPro DB1 due to the huge amount of data.
     - **IMU data**
 
         We also use IMU as a type of different views. For the datasets contains IMU data such as NinaPro DB2, the IMU data should be segmented like sEMG data in the section Segmentation. And IMU data is stored as .mat file such as `ninapro-db2/imu/001/002/001_002_003.mat`. For this part, you have to make it by yourself.
